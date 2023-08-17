@@ -4,20 +4,22 @@
 
 `Eixo 3 - Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio - Turma 05`
 
-`3º SEMESTRE/2022`
+`3º SEMESTRE/2023`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Janaína Marílda Pinheiro Leal do Couto
+* Leandro Henrique de Oliveira Reis
+* Marcos Paulo Assiz Maciel
+* Ramon Resende Souza
+* Silmara Eugênia Barbosa
+* Silvestre Castro Simão
 
 ## Orientador
 
-* Nome completo do professor 1
+* Mateus Curcino de Lima
 
 ## Instruções de utilização
 
