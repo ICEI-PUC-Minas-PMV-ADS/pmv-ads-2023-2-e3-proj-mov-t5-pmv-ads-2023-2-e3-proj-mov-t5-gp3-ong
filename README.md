@@ -6,7 +6,7 @@
 
 `3º SEMESTRE/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste trabalho é criar uma aplicação móvel em ambiente de negócio que permita o encontro entre ONGs e voluntários para a promoção de objetivos comuns e ações conjuntas. Além de promover benefícios sociais, o trabalho voluntário também beneficia a saúde daqueles que praticam tal atividade. Dentre as vantagens do trabalho voluntário para a saúde, destacam-se a maior longevidade, menores taxas de depressão na terceira idade e menor incidência de doenças cardíacas.
 
 ## Integrantes
 
