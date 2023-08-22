@@ -1,44 +1,38 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+A determinação exata do problema, suas personas, requisitos funcionais e não-funcionais foram acordadas em reuniões online entre os membros da equipe. Através de pesquisas e observações, foi possível reunir as informações que auxiliaram na construção de personas e histórias de usuários.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![Persona-Pedro-Silva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/106809153/fc609f9f-0628-459e-b7ca-291db7848164)
+![Persona-Paula-Matos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/106809153/939bd2e4-895c-4c73-a023-332ebc20442c)
+![Persona-Hugo-Martins](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/106809153/ad40da55-8b3d-47f2-8dd0-0fb99229eeca)
+![Persona-Beatriz-Costa](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/106809153/06dee28c-187a-4fe5-a015-4b7408c091e2)
+![Persona-Renata-Alcantara](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/106809153/0798291e-2701-443e-9240-e1d822b407c0)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários. 
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Hugo Martins        | Encontrar uma ONG que esteja arrecadando dinheiro para realização de projetos ligados ao basquete                   | Para que seja possível incentivar o esporte e apoiar jovens que estejam interessados, tanto no lazer, quanto na carreira.    que possam administrar contas |
+|Hugo Martins  | Ser notificado caso tente cadastrar um novo usuário com o mesmo e-mail          | Evitar cadastros duplicados               |
+|Hugo Martins  | Acessar regularmente sua conta cadastrada por meio de login           | Evitar cadastros duplicados               |
+|Paula Matos   | Cadastrar a ONG Marmitas Solidárias e as vagas em aberto para voluntários interessados em participar da distribuição das marmitas          | Buscar voluntários para apoiar e ampliar as ações do projeto              |
+|Paula Matos   | Visualizar o perfil dos candidatos que aplicaram para ocupar as vagas          | Para decidir qual candidatura será aceita                |                |
+|Beatriz Costa   | Encerrar sua participação como voluntária quando necessário           | Encerrar formalmente sua participação caso não seja possível prosseguir com o trabalho voluntário 
+|Beatriz Costa   | Editar sua participação como voluntária quando necessário           | Editar seus dados e manter o cadastro atualizado|
+|Beatriz Costa   | Cadastrar-se para apoiar ONGs  que estejam envolvidas com proteção animal           | Dedicar o tempo livre a causas que despertam o interesse pessoal e ganhar experiência profissional               |
+|Hugo Martins  | Ser notificado caso tente cadastrar um novo usuário com o mesmo e-mail          | Evitar cadastros duplicados              |
+|Renata Alcântara   | Recuperar o acesso ao site em caso de perda da senha          | Evitar ter que cadastrar um novo usuário e perder o acesso aos registros anteriores               |
+|Renata Alcântara   | Cadastrar-se como voluntária para auxiliar estudantes a melhorarem seu desempenho nos estudos          | Elevar as chances de estudantes conseguirem ingressar no ensino superior ou serem aprovados no ano letivo                |
+|Pedro Silva   | Cadastrar a ONG e as vagas para encontrar professores que possam ensinar aos alunos que farão o ENEM           | Poder discutir com os amigos e colegas de trabalhos sobre temas de interesse                |
+|Pedro Silva   | Cadastrar informações para arrecadação de doações financeiras           | Garantir a manutenção das instalações físicas da escola e proporcionar material didático aos alunos.               |
 
 ## Modelagem do Processo de Negócio 
 
