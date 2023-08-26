@@ -125,7 +125,21 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 # Gerenciamento de Projeto
 
-![Captura de tela 2023-08-26 003825](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/8d277956-c879-4dc8-b522-b3850569bd23)
+# Gantt Chart Simplificado - Projeto de Aplicação Móvel
+
+| Atividade                      | Duração Estimada | Área          |
+|--------------------------------|------------------|---------------|
+| Planejamento e Análise         | 2 semanas        | Integração    |
+| Definição de Escopo            | 1 semana         | Escopo        |
+| Definição de Cronograma        | 1 semana         | Cronograma    |
+| Estimativa de Custos           | 1 semana         | Custos        |
+| Planejamento de Qualidade      | 1 semana         | Qualidade     |
+| Aloc. de Recursos e Equipe     | 2 semanas        | Recursos      |
+| Plano de Comunicações          | 1 semana         | Comunicações  |
+| Identificação de Riscos        | 1 semana         | Riscos        |
+| Planejamento de Aquisições     | 1 semana         | Aquisições    |
+| Engajamento de Partes Interess.| 2 semanas        | Partes Int.   |
+
 
 
 ## Gerenciamento de Tempo
