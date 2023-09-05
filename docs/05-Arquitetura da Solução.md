@@ -17,11 +17,45 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+
+### Diagrama ER
+
+![Diagrama Entidade Relacional v1](img/DER%20v1.png)
+
+### Entidades e seus atributos:
+- Voluntário
+    - ID (Integer, PK)
+    - Nome (Text)
+    - Email (Text, Unique)
+    - Senha (Text)
+    - Descrição (Text)
+- Ong
+    - ID (Integer, PK)
+    - Nome (Text)
+    - Email (Text, Unique)
+    - Senha (Text)
+    - Descrição (Text)
+- Vaga
+    - ID (Integer, PK)
+    - ID da Ong (Integer, FK)
+    - Inscrito (FK, integer)
+    - Título (Text)
+    - Descrição (Text)
+
+### Relacionamentos:
+- Possuem
+    - Ongs possuem vagas
+    - 1,n
+- Recebem
+    - Vagas recebem candidaturas
+    - 1,n
+
+
 
 ## Esquema Relacional
 
