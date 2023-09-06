@@ -1,14 +1,20 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia contempla as definições das ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos, quanto para a organização do time na execução das tarefas do projeto.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+ O grupo se organiza em reuniões semanais para estabelecer tarefas a curto prazo, bem como atualizar o estado atual do projeto em relação aos objetivos de longo prazo. Utilizamos o <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/456"> Projects do GitHub</a></span>  e <a href="https://app.asana.com/0/1205358167113699/1205358452602668"> Asana</a></span>, para registro das atividades e artefatos do projeto de maneira a mostrar aquilo que já foi realizado e o que esta pendente para realizar durante a semana, de acordo com o plano de sprint.
+
+Abaixo, vamos citar ferramentas para planejamento, organização de tarefas, manutenção de código e dos artefatos necessários para a execução do projeto.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+**Ambiente**|**Plataforma**|**Link de Acesso**|
+--------------|-----------------|-------------|
+Repositório de código fonte|GitHub |<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong"> GitHub</a></span>|
+Documentos do projeto| GitHub |<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong"> GitHub</a></span>|
+Projeto de Interface e Wireframes| GitHub e Figma |<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/blob/main/docs/04-Projeto%20de%20Interface.md"> GitHub</a></span>|
+Gerenciamento do Projeto| GitHub e Asana|<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/456"> Projects do GitHub</a></span>  e <a href="https://app.asana.com/0/1205358167113699/1205358452602668"> Asana</a></span>|
 
 ## Controle de Versão
 
