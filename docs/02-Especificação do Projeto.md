@@ -38,11 +38,52 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+ Muitas ONGs enfrentam desafios para encontrar pessoas e organizações dispostas a fornecer apoio financeiro e/ou dedicar seu tempo como voluntários, principalmente após o período da pandemia, que pode ter afetado a disposição das pessoas em se envolver em atividades presenciais. Outro ponto importante é que indivíduos interessados em participar de projetos voluntários muitas vezes enfrentam dificuldades em encontrar oportunidades que estejam alinhadas com seus interesses e disponibilidade.
+
+ Para ajudar a solucionarmos esses problemas, uma plataforma interativa poderia potencializar as ações da ONG, tornando mais fácil para os apoiadores financeiros e voluntários encontrarem projetos alinhados aos seus interesses e habilidades. Além disso, poderia facilitar o gerenciamento e coordenação das atividades da ONG de forma mais eficaz.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta é criar uma plataforma interativa que visa facilitar o encontro entre ONGs, apoiadores financeiros e voluntários, especialmente no período pós-pandemia. No entanto, é importante notar que a implementação dessa plataforma pode encontrar alguns limites:
+
+# Dependência Tecnológica: 
+ A plataforma requer um desenvolvimento tecnológico significativo, o que pode envolver custos e exigir habilidades especializadas para o seu design, desenvolvimento e manutenção.
+
+# Acessibilidade: 
+ Nem todos os potenciais usuários (sejam ONGs, apoiadores ou voluntários) podem ter acesso fácil à tecnologia digital, o que pode limitar a adesão em certas comunidades ou áreas com acesso limitado à internet.
+
+# Adesão e Engajamento: 
+ A plataforma dependerá da adesão ativa de ONGs, apoiadores e voluntários para ser eficaz. Isso requer um esforço de marketing e sensibilização considerável.
+
+No entanto, a proposta está alinhada com estratégias e objetivos do negócio, como:
+
+# Ampliação do Alcance e Impacto: 
+ A plataforma pode aumentar o alcance das ONGs ao conectar uma gama mais ampla de apoiadores e voluntários, o que, por sua vez, pode ampliar o impacto de suas atividades.
+
+# Aprimoramento da Eficiência Operacional: 
+ A plataforma pode otimizar o processo de busca e coordenação de recursos, tornando as operações da ONG mais eficazes e reduzindo o tempo gasto na procura de apoio.
+
+# Promoção do Voluntariado e Filantropia: 
+ Facilitar o acesso a oportunidades de trabalho voluntário pode incentivar mais pessoas a se envolverem em projetos sociais, promovendo uma cultura de voluntariado e filantropia.
+
+ Com base nessas pontuações, temos as seguintes oportunidades de melhorias:
+
+# Treinamento e Suporte: 
+ Oferecer treinamento e suporte contínuo para as organizações e indivíduos que utilizam a plataforma, garantindo que possam aproveitar ao máximo seus recursos.
+
+# Acessibilidade: 
+ Desenvolver versões da plataforma acessíveis em dispositivos móveis e garantir que ela seja amigável para pessoas com diferentes níveis de habilidades tecnológicas.
+
+# Aprimoramento da Interface de Usuário: 
+ Focar na usabilidade da plataforma para garantir uma experiência intuitiva e fácil para todos os usuários.
+
+# Mecanismos de Verificação e Avaliação: 
+ Implementar mecanismos para verificar a autenticidade das ONGs e monitorar a qualidade dos projetos listados na plataforma.
+
+# Estratégias de Marketing e Sensibilização
+ Desenvolver estratégias eficazes para promover a plataforma e conscientizar as partes interessadas sobre seus benefícios.
+
+Essas melhorias podem fortalecer a proposta e garantir que a plataforma alcance seu potencial máximo em facilitar o apoio a ONGs e conectar voluntários com oportunidades de trabalho significativas.
 
 ### Processo 1 – NOME DO PROCESSO
 
