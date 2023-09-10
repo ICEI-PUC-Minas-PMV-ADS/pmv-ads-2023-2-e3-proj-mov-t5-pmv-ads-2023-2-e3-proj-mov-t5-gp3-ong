@@ -22,30 +22,27 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
-O projeto segue a seguinte convenção para o nome de branches:
+`Criação do Repositório`:
+- Crie um repositório Git no GitHub.
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+`Desenvolvimento Inicial`:
+- Clone o repositório para o seu ambiente local.
+- Adicione e faça o commit dos arquivos gerados para o repositório.
+- Crie uma branch de desenvolvimento inicial.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+`Desenvolvimento de Recursos`:
+- Crie branches de recursos para desenvolver funcionalidades específicas.
+- Faça commits nas branches de recursos à medida que desenvolve funcionalidades.
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+`Merge de Recursos`:
+- Quando uma funcionalidade estiver pronta, faça um merge dela de volta na branch "main".
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+`Tags para Versões`:
+- Crie tags para marcar versões específicas, por exemplo, `git tag v1.0` quando a primeira versão estiver pronta para ser lançada.
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+`Gerenciamento de Issues`:
+- Abra issues para rastrear tarefas e bugs específicos, como "Implementar tela de login" ou "Corrigir erro na autenticação."
+- Faça commits relacionados às issues e referencie-as nos commits.
 
 ## Gerenciamento de Projeto
 
