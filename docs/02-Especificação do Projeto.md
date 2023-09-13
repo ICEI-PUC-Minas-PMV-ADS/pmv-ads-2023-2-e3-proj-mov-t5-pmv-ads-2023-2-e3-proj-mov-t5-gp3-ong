@@ -46,31 +46,31 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 A proposta é criar uma plataforma interativa que visa facilitar o encontro entre ONGs, apoiadores financeiros e voluntários, especialmente no período pós-pandemia. No entanto, é importante notar que a implementação dessa plataforma pode encontrar alguns limites:
 
-Dependência Tecnológica: A plataforma requer um desenvolvimento tecnológico significativo, o que pode envolver custos e exigir habilidades especializadas para o seu design, desenvolvimento e manutenção.
+**Dependência Tecnológica:** A plataforma requer um desenvolvimento tecnológico significativo, o que pode envolver custos e exigir habilidades especializadas para o seu design, desenvolvimento e manutenção.
 
-Acessibilidade: Nem todos os potenciais usuários (sejam ONGs, apoiadores ou voluntários) podem ter acesso fácil à tecnologia digital, o que pode limitar a adesão em certas comunidades ou áreas com acesso limitado à internet.
+**Acessibilidade:** Nem todos os potenciais usuários (sejam ONGs, apoiadores ou voluntários) podem ter acesso fácil à tecnologia digital, o que pode limitar a adesão em certas comunidades ou áreas com acesso limitado à internet.
 
-Adesão e Engajamento: A plataforma dependerá da adesão ativa de ONGs, apoiadores e voluntários para ser eficaz. Isso requer um esforço de marketing e sensibilização considerável.
+**Adesão e Engajamento:** A plataforma dependerá da adesão ativa de ONGs, apoiadores e voluntários para ser eficaz. Isso requer um esforço de marketing e sensibilização considerável.
 
 No entanto, a proposta está alinhada com estratégias e objetivos do negócio, como:
 
-Ampliação do Alcance e Impacto: A plataforma pode aumentar o alcance das ONGs ao conectar uma gama mais ampla de apoiadores e voluntários, o que, por sua vez, pode ampliar o impacto de suas atividades.
+**Ampliação do Alcance e Impacto:** A plataforma pode aumentar o alcance das ONGs ao conectar uma gama mais ampla de apoiadores e voluntários, o que, por sua vez, pode ampliar o impacto de suas atividades.
 
-Aprimoramento da Eficiência Operacional: A plataforma pode otimizar o processo de busca e coordenação de recursos, tornando as operações da ONG mais eficazes e reduzindo o tempo gasto na procura de apoio.
+**Aprimoramento da Eficiência Operacional:** A plataforma pode otimizar o processo de busca e coordenação de recursos, tornando as operações da ONG mais eficazes e reduzindo o tempo gasto na procura de apoio.
 
-Promoção do Voluntariado e Filantropia: Facilitar o acesso a oportunidades de trabalho voluntário pode incentivar mais pessoas a se envolverem em projetos sociais, promovendo uma cultura de voluntariado e filantropia.
+**Promoção do Voluntariado e Filantropia:** Facilitar o acesso a oportunidades de trabalho voluntário pode incentivar mais pessoas a se envolverem em projetos sociais, promovendo uma cultura de voluntariado e filantropia.
 
  Com base nessas pontuações, temos as seguintes oportunidades de melhorias:
 
-Treinamento e Suporte: Oferecer treinamento e suporte contínuo para as organizações e indivíduos que utilizam a plataforma, garantindo que possam aproveitar ao máximo seus recursos.
+**Treinamento e Suporte:** Oferecer treinamento e suporte contínuo para as organizações e indivíduos que utilizam a plataforma, garantindo que possam aproveitar ao máximo seus recursos.
 
-Acessibilidade: Desenvolver versões da plataforma acessíveis em dispositivos móveis e garantir que ela seja amigável para pessoas com diferentes níveis de habilidades tecnológicas.
+**Acessibilidade:** Desenvolver versões da plataforma acessíveis em dispositivos móveis e garantir que ela seja amigável para pessoas com diferentes níveis de habilidades tecnológicas.
 
-Aprimoramento da Interface de Usuário: Focar na usabilidade da plataforma para garantir uma experiência intuitiva e fácil para todos os usuários.
+**Aprimoramento da Interface de Usuário:** Focar na usabilidade da plataforma para garantir uma experiência intuitiva e fácil para todos os usuários.
 
-Mecanismos de Verificação e Avaliação: Implementar mecanismos para verificar a autenticidade das ONGs e monitorar a qualidade dos projetos listados na plataforma.
+**Mecanismos de Verificação e Avaliação:** Implementar mecanismos para verificar a autenticidade das ONGs e monitorar a qualidade dos projetos listados na plataforma.
 
-Estratégias de Marketing e SensibilizaçãoDesenvolver estratégias eficazes para promover a plataforma e conscientizar as partes interessadas sobre seus benefícios.
+**Estratégias de Marketing e Sensibilização:** Desenvolver estratégias eficazes para promover a plataforma e conscientizar as partes interessadas sobre seus benefícios.
 
 Essas melhorias podem fortalecer a proposta e garantir que a plataforma alcance seu potencial máximo em facilitar o apoio a ONGs e conectar voluntários com oportunidades de trabalho significativas.
 
