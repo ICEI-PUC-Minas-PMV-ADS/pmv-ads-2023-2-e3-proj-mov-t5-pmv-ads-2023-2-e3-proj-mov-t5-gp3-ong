@@ -70,8 +70,10 @@ https://expo.dev/
 
 ## Ferramentas de comunicação
 
-https://web.whatsapp.com/
+https://web.whatsapp.com/  
+
 https://teams.microsoft.com/
+
 https://meet.google.com/
 
 São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo smartphone.
@@ -79,7 +81,9 @@ São ferramentas completas e úteis para a gestão da equipe, viabilizando as ch
 ## Ferramentas de criação de diagramas
 
 https://www.lucidchart.com/
+
 https://www.drawio.com/
+
 https://astah.net/
 
 ## Ferramentas de desenho de tela
