@@ -46,7 +46,7 @@ foi utilizado para hospedagem do repositório.
 
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
+## Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 - Scrum Master: Silmara Eugênia Barbosa;
@@ -54,31 +54,35 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 - Equipe de Desenvolvimento: Ramon Resende Souza, Silvestre Castro Simão;
 - Equipe de Design: Leandro Henrique de Oliveira Reis, Marcos Paulo Assiz Maciel.
 
-### Processo
+## Processo
 
 Na organização e na distribuição das tarefas do projeto, o grupo utiliza o aplicativo de gerenciamento de projetos denominado Git Projects, onde permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. 
 
-### Ferramentas
+## Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-# Editor de código
+## Editor de código
 
 https://code.visualstudio.com/
 
 https://expo.dev/
 
-# Ferramentas de comunicação
+## Ferramentas de comunicação
 
-WhatsApp, Microsoft Teams, Trello.
+https://web.whatsapp.com/
+https://teams.microsoft.com/
+https://meet.google.com/
 
 São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo smartphone.
 
-# Ferramentas de criação de diagramas
+## Ferramentas de criação de diagramas
 
 https://www.lucidchart.com/
+https://www.drawio.com/
+https://astah.net/
 
-# Ferramentas de desenho de tela
+## Ferramentas de desenho de tela
 
 https://www.figma.com/
 
