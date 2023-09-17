@@ -74,17 +74,14 @@ No entanto, a proposta está alinhada com estratégias e objetivos do negócio, 
 
 Essas melhorias podem fortalecer a proposta e garantir que a plataforma alcance seu potencial máximo em facilitar o apoio a ONGs e conectar voluntários com oportunidades de trabalho significativas.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Usuário ONG - Cadastrando Vagas e Visualizando Voluntários.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+![Usuário ONG](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115120672/d70d902e-aab6-49bf-8168-a64e0235aa83)
 
-![Processo 1](img/02-bpmn-proc1.png)
 
-### Processo 2 – NOME DO PROCESSO
+### Processo 2 – Usuário Voluntário - Vizualisando as ONGs e Buscando por outras ONGs
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+![Usuário Voluntário](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115120672/9b59eb50-0559-4a26-94c6-7689cc54afaf)
 
 ## Indicadores de Desempenho
 
