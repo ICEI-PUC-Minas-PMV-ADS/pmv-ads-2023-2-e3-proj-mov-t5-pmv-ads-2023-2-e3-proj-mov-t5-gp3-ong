@@ -85,14 +85,19 @@ Essas melhorias podem fortalecer a proposta e garantir que a plataforma alcance 
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores.
+
+
+|Indicador|Objetivos|Descrição|Fontes|Perspectiva|
+|---------|---------|---------|------|-----------|
+| Novos voluntários| Avaliar a adesão de novos voluntários na plataforma| Números de novas contas de voluntário criadas em um determinado período| Tabela de voluntários| Crescimento|
+| Novas ONGs| Avaliar a adesão de novas ONGs na plataforma| Números de novas contas de ONGs criadas em um determinado período| Tabela de ONGs| Crescimento|
+| Novas Vagas| Avaliar o nível atividade/uso das ONGs na plataforma| Números de novas vagas de ONGs criadas em um determinado período| Tabela de vagas| Qualidade|
+| Taxa de vagas preenchidas| Avaliar o nível de atividade dos voluntários na plataforma | Percental de vagas que foram preenchidas por voluntários em um determinado período| Tabela de Vagas | Qualidade|
+|Média de busca de vagas| Avaliar o nível de atividade dos voluntários na plataforma | Média de buscas efetuadas por usuários do tipo voluntários | Tabela voluntários  | Qualidade|
 
 
 
-Usar o seguinte modelo: 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
