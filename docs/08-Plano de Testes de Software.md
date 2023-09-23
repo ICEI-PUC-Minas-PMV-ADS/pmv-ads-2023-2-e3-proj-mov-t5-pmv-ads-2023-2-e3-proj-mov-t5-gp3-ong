@@ -2,10 +2,19 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
+| **Caso de Teste** 	| **CT-01 – Cadastrar voluntário** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001 - O sistema deve permitir que o usuário se cadastre como voluntário. <br> |
+| Objetivo do Teste 	| Verificar se consegue cadastrar um voluntário. |
+| Passos 	| - Acessar o aplicativo. <br> - Pressionar o botão “Entrar”. <br> - Pressionar o botão “Nova Conta”. <br> - Preencher os campos de registro necessários. <br> - Pressionar o botão “Concluir Registro”. <br>                                                                                  |
+|Critério de Êxito | -Cadastro foi efetivado. |
+|  	|  	| 
+| **Caso de Teste** 	| **CT-02 – Fazer Login** 	|
+|	Requisito Associado 	| RF-002 - O sistema deve permitir que o usuário efetue login em sua conta de voluntário. |
+| Objetivo do Teste 	| Verificar se consegue fazer login. |
+| Passos 	|- Acessar o aplicativo. <br> - Pressionar o botão “Entrar”. <br> - Preencher os campos de identificação e senha. <br> - Pressionar o botão “Concluir Registro”. |
+|Critério de Êxito | - A tentativa de login for aceita ou negada caso os dados de login estejam corretos ou incorretos, respectivamente. |
+|  	|  	|
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
