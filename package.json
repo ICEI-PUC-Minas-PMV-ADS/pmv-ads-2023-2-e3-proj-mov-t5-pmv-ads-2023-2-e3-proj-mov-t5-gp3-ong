@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "@babel/plugin-transform-numeric-separator": "^7.22.11"
-  }
-}

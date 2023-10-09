@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, StyleSheet, Text, TouchableOpacity, Image } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const CadastroUsuario = () => {
   const [nome, setNome] = useState('');

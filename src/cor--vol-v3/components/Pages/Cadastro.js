@@ -10,7 +10,7 @@ export default function Cadastro({navigation}) {
 
   const entrar = () => {
     navigation.reset({
-      index: 0,
+      idex: 0,
       routes:[{name:'Main'}]
     })
   }
@@ -78,7 +78,7 @@ const handleCadastro = () => {
   return (
     <View style={styles.container}>
      <Image/>
-    style={styles.imagem}/>
+    style={styles.imagem}
 
         <Text style={styles.titulo}>
             Cadastro de Usuário
@@ -198,5 +198,3 @@ const styles = StyleSheet.create({
     margin:30,
   }
 })
-
-

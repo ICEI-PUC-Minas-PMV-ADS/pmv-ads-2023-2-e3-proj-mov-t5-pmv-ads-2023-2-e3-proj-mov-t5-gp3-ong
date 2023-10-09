@@ -1,21 +1,31 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import * as React from 'react';
 import { Text, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
+import Cadastro from './Cadastro';
+import Home from './Home';
+import Login from './Login';
+
 function Feed() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Feed!</Text>
+      <Home />
     </View>
   );
 }
 
-function Profile() {
+function Voluntarios() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Profile!</Text>
+      <Cadastro />
+    </View>
+  );
+}
+
+function Loginn() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Login />
     </View>
   );
 }
@@ -30,82 +40,69 @@ function Notifications() {
 
 const Tab = createBottomTabNavigator();
 
-export default function Main() {{
-  return (
-    <Tab.Navigator
-      initialRouteName="Feed"
-      screenOptions={{
-        tabBarActiveTintColor: '#e91e63',
-      }}
-    >
-      <Tab.Screen
-        name="ONG´s"
-        component={Feed}
-        options={{
-          tabBarLabel: 'ONG´s',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Vagas"
-        component={Notifications}
-        options={{
-          tabBarLabel: 'Vagas',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Voluntários"
-        component={Profile}
-        options={{
-          tabBarLabel: 'Voluntários',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
-          ),
-        }}
-      />
-       <Tab.Screen
-        name="Sair"
-        component={Notifications}
-        options={{
-          tabBarLabel: 'Sair',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
-          ),
-        }}
-      />
-    </Tab.Navigator>
-  );
-}
-
-  
-  const Stack = createNativeStackNavigator()
-
-  const Main = () => {
+export default function Main() {
+  {
     return (
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
-          name="Home"
-          component={Home}
+      <Tab.Navigator
+        initialRouteName="Feed"
+        screenOptions={{
+          tabBarActiveTintColor: '#e91e63',
+        }}>
+        <Tab.Screen
+          name="ONG´s"
+          component={Feed}
           options={{
-            header: () => null,
+            tabBarLabel: 'ONG´s',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="home" color={color} size={size} />
+            ),
           }}
         />
-      </Stack.Navigator>,
-
-       <Stack.Navigator initialRouteName="Login">
-        <Stack.Screen
+        <Tab.Screen
+          name="Vagas"
+          component={Notifications}
+          options={{
+            tabBarLabel: 'Vagas',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="bell" color={color} size={size} />
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="Voluntários"
+          component={Voluntarios}
+          options={{
+            tabBarLabel: 'Voluntários',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons
+                name="account"
+                color={color}
+                size={size}
+              />
+            ),
+          }}
+        />
+        <Tab.Screen
           name="Login"
-          component={Home}
+          component={Loginn}
           options={{
-            header: () => null,
+            tabBarLabel: 'Login',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="bell" color={color} size={size} />
+            ),
           }}
         />
-      </Stack.Navigator>
+        <Tab.Screen
+          name="Sair"
+          component={Notifications}
+          options={{
+            tabBarLabel: 'Sair',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="bell" color={color} size={size} />
+            ),
+          }}
+        />
+      </Tab.Navigator>
     );
   }
 }
