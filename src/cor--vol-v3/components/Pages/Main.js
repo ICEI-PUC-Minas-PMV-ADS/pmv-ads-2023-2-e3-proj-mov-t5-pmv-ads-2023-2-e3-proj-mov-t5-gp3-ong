@@ -93,10 +93,10 @@ export default function Main() {
           }}
         />
         <Tab.Screen
-          name="Sair"
+          name="Causas"
           component={Notifications}
           options={{
-            tabBarLabel: 'Sair',
+            tabBarLabel: 'Causas',
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="bell" color={color} size={size} />
             ),

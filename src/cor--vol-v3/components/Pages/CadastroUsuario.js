@@ -10,25 +10,25 @@ const CadastroUsuario = () => {
   const [tipoUsuario, setTipoUsuario] = useState('');
   const [campoSelecionado, setCampoSelecionado] = useState('Nome');
 
-const handleCadastro = () => {
+  const handleCadastro = () => {
     console.log('Nome:', nome);
     console.log('Email:', email);
     console.log('Senha:', senha);
     console.log('Campo Selecionado:', campoSelecionado);
-    
+
   };
 
 
   return (
     <View style={styles.container}>
       <Image
-    source={require('../../assets/LogoONG.png')}
-    style={styles.imagem}
-  />
+        source={require('../../assets/LogoONG.png')}
+        style={styles.imagem}
+      />
 
-        <Text style={styles.titulo}>
-            Cadastro de Usuário
-        </Text>
+      <Text style={styles.titulo}>
+        Cadastro de Usuário
+      </Text>
 
 
       <TextInput
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     marginBottom: 200,
     textAlign: 'center',
   },
-  
+
   submitButton: {
     backgroundColor: 'lightgray',
     paddingVertical: 10,
@@ -106,10 +106,10 @@ const styles = StyleSheet.create({
   },
 
   imagem: {
-    width: 100, 
-    height: 100, 
-    alignSelf: 'left', 
-    marginBottom: 20, 
+    width: 100,
+    height: 100,
+    alignSelf: 'left',
+    marginBottom: 20,
   }
 
 })
