@@ -6,7 +6,7 @@ import Cadastro from './Cadastro';
 import Home from './Home';
 import Login from './Login';
 
-function Feed() {
+function FeedOngs() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Home />
@@ -44,13 +44,13 @@ export default function Main() {
   {
     return (
       <Tab.Navigator
-        initialRouteName="Feed"
+        initialRouteName="ONG´s"
         screenOptions={{
           tabBarActiveTintColor: '#e91e63',
         }}>
         <Tab.Screen
           name="ONG´s"
-          component={Feed}
+          component={FeedOngs}
           options={{
             tabBarLabel: 'ONG´s',
             tabBarIcon: ({ color, size }) => (

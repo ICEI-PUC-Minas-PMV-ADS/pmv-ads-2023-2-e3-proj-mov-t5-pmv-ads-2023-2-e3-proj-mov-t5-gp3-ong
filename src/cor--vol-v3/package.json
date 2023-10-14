@@ -6,7 +6,11 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  
+      
+ 
   "dependencies": {
+    "react-native-snap-carousel": "^3.9.1",
     "@expo/vector-icons": "^13.0.0",
     "@react-native-picker/picker": "2.4.8",
     "@react-navigation/bottom-tabs": "*",
