@@ -1,21 +1,63 @@
 import React, { useState } from 'react';
-import { View, TextInput, StyleSheet, Text, TouchableOpacity, Image } from 'react-native';
+import { View, TextInput, StyleSheet, Text, TouchableOpacity, Image, Alert } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+
+
 
 const CadastroUsuario = () => {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
   const [tipoUsuario, setTipoUsuario] = useState('');
-  const [campoSelecionado, setCampoSelecionado] = useState('Nome');
 
-  const handleCadastro = () => {
+
+  const handleCadastro = async () => {
+    if (!nome || !email || !senha || !tipoUsuario) {
+      Alert.alert(
+        'Campos obrigatórios',
+        'Por favor, preencha todos os campos.',
+        [{ text: 'OK', onPress: () => console.log('OK Pressed') }]
+      );
+      return;
+    }
     console.log('Nome:', nome);
     console.log('Email:', email);
     console.log('Senha:', senha);
-    console.log('Campo Selecionado:', campoSelecionado);
 
+
+    try {
+      const response = await fetch('http://localhost:3000/usuarios', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          nome,
+          email,
+          senha,
+          tipoUsuario,
+        }),
+      });
+      
+      console.log('Status da resposta:', response.status);
+  
+      if (!response.ok) {
+        throw new Error('Erro ao cadastrar usuário');
+      }
+  
+      const data = await response.json();
+  
+      console.log('Novo usuário cadastrado:', data);
+
+      Alert.alert(
+        'Cadastro bem-sucedido',
+        [{ text: 'OK', onPress: () => console.log('OK Pressed') }]
+      );
+
+    } catch (error) {
+      console.error(error.message);
+    }
   };
 
 
@@ -113,5 +155,5 @@ const styles = StyleSheet.create({
   }
 
 })
+export default CadastroUsuario
 
-export default CadastroUsuario;

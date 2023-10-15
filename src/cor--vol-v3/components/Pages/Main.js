@@ -1,31 +1,21 @@
+import * as React from 'react';
 import { Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-
-import Cadastro from './Cadastro';
-import Home from './Home';
-import Login from './Login';
 
 function Feed() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Home />
+      <Text>Informações ONGs!</Text>
     </View>
   );
 }
 
-function Voluntarios() {
+function Profile() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Cadastro />
-    </View>
-  );
-}
-
-function Loginn() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Login />
+      <Text>Informações Cadastro!</Text>
     </View>
   );
 }
@@ -33,7 +23,15 @@ function Loginn() {
 function Notifications() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Notifications!</Text>
+      <Text>Informações Voluntários!</Text>
+    </View>
+  );
+}
+
+function Jobs() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Informações Vagas!</Text>
     </View>
   );
 }
@@ -41,68 +39,53 @@ function Notifications() {
 const Tab = createBottomTabNavigator();
 
 export default function Main() {
-  {
-    return (
-      <Tab.Navigator
-        initialRouteName="Feed"
-        screenOptions={{
-          tabBarActiveTintColor: '#e91e63',
-        }}>
-        <Tab.Screen
-          name="ONG´s"
-          component={Feed}
-          options={{
-            tabBarLabel: 'ONG´s',
-            tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="home" color={color} size={size} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Vagas"
-          component={Notifications}
-          options={{
-            tabBarLabel: 'Vagas',
-            tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="bell" color={color} size={size} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Voluntários"
-          component={Voluntarios}
-          options={{
-            tabBarLabel: 'Voluntários',
-            tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons
-                name="account"
-                color={color}
-                size={size}
-              />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Login"
-          component={Loginn}
-          options={{
-            tabBarLabel: 'Login',
-            tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="bell" color={color} size={size} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Causas"
-          component={Notifications}
-          options={{
-            tabBarLabel: 'Causas',
-            tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="bell" color={color} size={size} />
-            ),
-          }}
-        />
-      </Tab.Navigator>
-    );
-  }
+  return (
+    <Tab.Navigator
+      initialRouteName="Feed"
+      screenOptions={{
+        tabBarActiveTintColor: '#e91e63',
+      }}
+    >
+      <Tab.Screen
+        name="Tela ONGs" 
+        component={Feed}
+        options={{
+          tabBarLabel: 'ONGs',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="bank" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Tela Voluntários"
+        component={Notifications}
+        options={{
+          tabBarLabel: 'Voluntários',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="charity" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Tela Cadastro"
+        component={Profile}
+        options={{
+          tabBarLabel: 'Cadastro',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="account-edit-outline" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Tela Vagas"
+        component={Jobs}
+        options={{
+          tabBarLabel: 'Vagas',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="bullhorn" color={color} size={size} />
+          ),
+        }}
+      />
+    </Tab.Navigator>
+  );
 }

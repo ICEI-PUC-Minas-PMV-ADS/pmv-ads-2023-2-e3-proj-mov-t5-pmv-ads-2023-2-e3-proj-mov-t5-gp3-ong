@@ -1,0 +1,11 @@
+{
+  "usuarios": [
+    {
+      "nome": "d",
+      "email": "d",
+      "senha": "d",
+      "tipoUsuario": "ONG",
+      "id": 1
+    }
+  ]
+}
