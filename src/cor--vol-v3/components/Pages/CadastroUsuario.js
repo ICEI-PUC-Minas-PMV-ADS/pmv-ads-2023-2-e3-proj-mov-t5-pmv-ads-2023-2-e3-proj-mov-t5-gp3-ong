@@ -27,7 +27,7 @@ const CadastroUsuario = () => {
 
 
     try {
-      const response = await fetch('http://localhost:3000/usuarios', {
+      const response = await fetch('http://localhost:3001/usuarios', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
