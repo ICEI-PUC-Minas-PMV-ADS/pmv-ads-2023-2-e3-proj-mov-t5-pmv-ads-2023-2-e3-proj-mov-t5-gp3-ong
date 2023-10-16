@@ -1,11 +1,11 @@
 {
   "usuarios": [
     {
-      "nome": "d",
-      "email": "d",
-      "senha": "d",
-      "tipoUsuario": "ONG",
-      "id": 1
+    "nome": "marcospaulo",
+    "email": "marcospaulo@gmail.com",
+    "senha": "@Marcospaulo",
+    "tipoUsuario": "Voluntario",
+    "id": 1
     }
   ]
 }
