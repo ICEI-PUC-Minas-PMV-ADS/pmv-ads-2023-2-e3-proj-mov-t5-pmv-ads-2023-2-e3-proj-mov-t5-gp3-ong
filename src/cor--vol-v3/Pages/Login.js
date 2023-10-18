@@ -2,7 +2,13 @@ import { Text, View, StyleSheet, Image } from 'react-native';
 import { Input, Button } from 'react-native-elements';
 import { useState } from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
+<<<<<<< Updated upstream:src/cor--vol-v3/components/Pages/Login.js
 import { UseNavigation } from '@react-navigation/native';
+=======
+import styles from './styles';
+import CadastroUsuario from './CadastroUsuario';
+import { Platform } from 'react-native';
+>>>>>>> Stashed changes:src/cor--vol-v3/Pages/Login.js
 
 export default function Login({ navigation }) {
   const [email, setEmail] = useState(null);
@@ -76,6 +82,7 @@ const styles = StyleSheet.create({
     width: 150,
     margin: 50,
   },
+<<<<<<< Updated upstream:src/cor--vol-v3/components/Pages/Login.js
   form: {
     height: 200,
     width: 300,
@@ -89,3 +96,11 @@ const styles = StyleSheet.create({
     margin: 30,
   },
 });
+=======
+})
+
+  
+    
+
+
+>>>>>>> Stashed changes:src/cor--vol-v3/Pages/Login.js

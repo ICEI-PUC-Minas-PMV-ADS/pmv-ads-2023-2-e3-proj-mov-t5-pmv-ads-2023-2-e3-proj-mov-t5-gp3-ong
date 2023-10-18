@@ -42,4 +42,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< Updated upstream:src/cor--vol-v3/components/Pages/OngProfile.js
 export default OngProfile;
+=======
+export default OngProfile;
+>>>>>>> Stashed changes:src/cor--vol-v3/Pages/OngProfile.js

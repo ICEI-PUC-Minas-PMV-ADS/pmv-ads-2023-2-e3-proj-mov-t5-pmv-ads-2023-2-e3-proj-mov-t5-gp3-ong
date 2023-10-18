@@ -1,0 +1,11 @@
+{
+  "usuarios": [
+    {
+    "nome": "marcospaulo",
+    "email": "marcospaulo@gmail.com",
+    "senha": "@Marcospaulo",
+    "tipoUsuario": "Voluntario",
+    "id": 1
+    }
+  ]
+}
