@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, Image, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Button, Input, keyboardType} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import styles from '../../styles/Styles';
-import CadastroUsuario from './CadastroUsuario';
-import { Platform } from 'react-native';
+import styles from '../../Styles.js/styles';
+import Logo from '../../assets/LogoONG.png';
 
 
 export default function Login({navigation}) {
@@ -26,16 +25,16 @@ export default function Login({navigation}) {
   return (
     <View style={styles.container}>
 
-      
-      
-      
+      <img style={styles.Imagem} src={Logo}/>
+           
       <Text style={[styles.paragraph, specifStyle.paragraph]}>Coração Voluntário</Text>
 
       <Input
-            placeholder='E-mail'
-            leftIcon={{type:'font-awesome', name:'envelope'}}
-            onChangeText={value => setEmail(value)}
-            keyboardType='email-address'
+        placeholder='E-mail'
+        leftIcon={{type:'font-awesome', name:'envelope'}}
+        onChangeText={value => setEmail(value)}
+        style={[styles.input, specifStyle.input]}
+        keyboardType='email-address'
       />
 
       <Input
@@ -43,8 +42,9 @@ export default function Login({navigation}) {
         leftIcon={{type:'font-awesome', name:'lock'}}
         onChangeText={value => setPasword(value)}
         secureTextEntry={true}
+        style={styles.input}
       />
-      <View> 
+      <View style={[styles.button, specifStyle.button]}> 
         <Button
             icon={
               <Icon
@@ -54,11 +54,10 @@ export default function Login({navigation}) {
           />
         }
             title=' Entrar'
-            buttonStyle={specifStyle.button}
             onPress={() => entrar()}
           />
 
-<Button
+          <Button
             icon={
               <Icon
               name='user'
@@ -67,10 +66,12 @@ export default function Login({navigation}) {
               />
             }
             title=' Cadastrar'
-            buttonStyle={specifStyle.button}
             onPress={() => cadastrar()}
           />
       </View>
+      
+      <Text style={[styles.welcome, specifStyle.welcome]}>Seja bem-vindo!</Text>
+      
     </View>
   ) 
 }
@@ -81,18 +82,24 @@ const specifStyle = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     color:'black',
+    padding: 50,
   },
-    button: {
-    marginTop:10,
-    width:'100%',    
+
+  button:{
+    width: '60%',
+    alignSelf:'center',
+    marginTop:40,
   },
-})
 
+  welcome: {
+  fontSize: 24,
+  textAlign: 'center',
+  color:'black',
+  padding: 60,
+  },
 
-  
-  
-  
-  
+  input: {
     
-
-
+    padding: 15,
+  }
+})
