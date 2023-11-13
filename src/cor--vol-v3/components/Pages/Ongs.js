@@ -10,6 +10,8 @@ const data = [
     email: 'missao@missaoelpallet.com.br',
     descricao: 'Somos uma ONG com objetivo de semear a boa semente e cremos que todos podem ter uma segunda chance. Nosso objetivo é transformar!',
     imagem: require('../../assets/ongs_img/ong1.jpg'),
+    endereco: 'Sâo Paulo, SP',
+    
 
   },
   {
@@ -20,7 +22,7 @@ const data = [
     email: 'idc3milenio@gmail.com',
     descricao: 'O Serviço de Acolhimento institucional para Crianças e Adolescentes (SAICA ) é um serviço de proteção social especial de alta complexidade.',
     imagem: require('../../assets/ongs_img/ong2.png'), // URL da imagem da ONG
-    
+
   },
   {
     id: 3,
@@ -30,7 +32,7 @@ const data = [
     email: 'ong1@email.com',
     descricao: 'DOrganizações Sociais de Floripa, juntas, despertando a generosidade dos moradores da Ilha da Magia, celebrando o prazer que é doar. Escolha sua causa!',
     imagem: require('../../assets/ongs_img/ong3.jpg'), // URL da imagem da ONG
-    
+
   },
   {
     id: 4,
@@ -40,7 +42,7 @@ const data = [
     email: 'contato@compradobem.com.br',
     descricao: 'A ONG oferece atendimento à famílias em vulnerabilidade e extrema vulnerabilidade social.',
     imagem: require('../../assets/ongs_img/ong4.jpg'), // URL da imagem da ONG
-    
+
   },
   {
     id: 5,
@@ -50,7 +52,7 @@ const data = [
     email: 'ong1@email.com',
     descricao: 'Somos um grupo de pessoas dedicadas à causa animal! Atuamos atualmente nas frentes de conscientização e vamos iniciar em breve alguns resgates.',
     imagem: require('../../assets/ongs_img/ong5.jpg'), // URL da imagem da ONG
-    
+
   },
   {
     id: 6,
@@ -60,45 +62,45 @@ const data = [
     email: 'institutosemeandoamor@gmail.com',
     descricao: 'Estamos presentes na Comunidade Cesar Maia há quase 20 anos. Disponibilizamos aulas de reforço escolar e atividades culturais para jovens de 7 a 16 anos.',
     imagem: require('../../assets/ongs_img/ong6.jpg'),// URL da imagem da ONG
-    
+
   },
   {
     id: 7,
-    nome: 'ONG 7',
-    site: 'www.ong5.com',
+    nome: 'Instituto Vale do Sol',
+    site: 'https://www.facebook.com/@valedosolmaceio',
     telefone: '123456789',
-    email: 'ong1@email.com',
-    descricao: 'Descrição da ONG 7...',
-    imagem: 'https://via.placeholder.com/150', // URL da imagem da ONG
-    
+    email: 'valedosolmaceio@gmail.com',
+    descricao: 'O Instituto Vale do Sol é uma OSCIP que aproxima a preservação dos direitos humanos e a preservação ambiental, proporciona atividades de acesso a direitos.',
+    imagem: require('../../assets/ongs_img/ong7.jpg'),
+
   },
   {
     id: 8,
-    nome: 'ONG 8',
-    site: 'www.ong4.com',
+    nome: 'One by One',
+    site: 'https://onebyone.org.br/site/#quemsomos',
     telefone: '123456789',
-    email: 'ong1@email.com',
-    descricao: 'Descrição da ONG 8...',
-    imagem: 'https://via.placeholder.com/150', // URL da imagem da ONG
-    
+    email: 'comunicacao@onebyone.org.br',
+    descricao: 'A missão da One by One é proporcionar inclusão social para famílias com crianças com deficiência física, motora ou neurológica e em vulnerabilidade social.',
+    imagem: require('../../assets/ongs_img/ong8.jpg'),
+
   }, {
     id: 9,
-    nome: 'ONG 9',
-    site: 'www.ong5.com',
+    nome: 'Indimap.org',
+    site: 'https://indimap.org',
     telefone: '123456789',
-    email: 'ong1@email.com',
-    descricao: 'Descrição da ONG 9...',
-    imagem: 'https://via.placeholder.com/150', // URL da imagem da ONG
-    
+    email: 'mariofraga@gmail.com',
+    descricao: 'O Indimap é uma aplicação que utiliza dados geoespaciais para monitorar e divulgar em tempo real ilícitos ambientais em terras indígenas brasileiras.',
+    imagem: require('../../assets/ongs_img/ong9.png'),
+
   },
   {
     id: 10,
-    nome: 'ONG 10',
-    site: 'www.ong4.com',
+    nome: 'Anjos da Leste',
+    site: 'https://www.anjosdaleste.org.br',
     telefone: '123456789',
-    email: 'ong1@email.com',
-    descricao: 'Descrição da ONG 10...',
-    imagem: 'https://via.placeholder.com/150', // URL da imagem da ONG
+    email: 'anjosdaleste@gmail.com',
+    descricao: 'Somos uma ONG cuja finalidade é promover a assist. social, voluntáriado, solidariedade, dignidade, através de projetos voltados às pessoas em vulnerabilidade',
+    imagem: require('../../assets/ongs_img/ong10.jpg'),
   },
   // Adicione mais dados conforme necessário
 ];
