@@ -4,6 +4,7 @@ import { Text, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import Ongs from './Ongs';
+import Volunteers from './Voluntários';
 
 function Feed() {
   return (
@@ -59,7 +60,7 @@ export default function Main() {
       />
       <Tab.Screen
         name="Tela Voluntários"
-        component={Notifications}
+        component={Volunteers}
         options={{
           tabBarLabel: 'Voluntários',
           tabBarIcon: ({ color, size }) => (
