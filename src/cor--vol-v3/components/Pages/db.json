@@ -1,11 +1,41 @@
 {
   "usuarios": [
     {
-    "nome": "marcospaulo",
-    "email": "marcospaulo@gmail.com",
-    "senha": "@Marcospaulo",
-    "tipoUsuario": "Voluntario",
-    "id": 1
+      "nome": "marcospaulo",
+      "email": "marcospaulo@gmail.com",
+      "senha": "@Marcospaulo",
+      "tipoUsuario": "Voluntario",
+      "id": 1
+    },
+    {
+      "nome": "Sil",
+      "email": "ma.dosil@hotmail.com",
+      "senha": "@outono",
+      "tipoUsuario": "Voluntario",
+      "id": 2
+    }
+  ],
+  "jobs": [
+    {
+      "ONG": "ONG Mãos de Valor",
+      "cargo": "Carpinteiro (pequenos consertos em escolas carentes)",
+      "telefone": "(31) 3581-9473",
+      "local": "Betim - MG",
+      "id": 3
+    },
+    {
+      "ONG": "ONG Semeando Amor",
+      "cargo": "Intrutor de Artes",
+      "telefone": "(48) 3857-1282",
+      "local": "Florianópolis - SC",
+      "id": 4
+    },
+    {
+      "ONG": "Anjos da Leste",
+      "cargo": "Psicólogo",
+      "telefone": "(62) 3142-0095",
+      "local": "Catalão - GO",
+      "id": 5
     }
   ]
 }
