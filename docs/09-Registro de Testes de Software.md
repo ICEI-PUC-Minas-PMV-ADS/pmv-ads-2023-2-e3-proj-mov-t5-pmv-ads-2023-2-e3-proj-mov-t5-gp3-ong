@@ -6,94 +6,37 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## Avaliação
 
-| **Caso de Teste** 	| **CT-01 – Cadastrar voluntário** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastrar usuário** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-001 - O sistema deve permitir que o usuário se cadastre como voluntário. <br> |
-| Objetivo do Teste 	| Verificar se consegue cadastrar um voluntário. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br>                                                                                  |
+|	Requisito Associado 	| RF-001 - O sistema deve permitir que o usuário se cadastre como voluntário. <br> RF-006 - O sistema deve permitir que o usuário cadastre sua ONG. |
+| Objetivo do Teste 	| Verificar se consegue cadastrar um voluntário ou ong. |
+| Foto 	|  ![tela 4 ft](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/52e33709-5ee5-49f0-830c-28762c591d2b)
+ <br>   |
+ | Foto 	|  ![tela 6 ft](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/e02ccba3-02ce-4740-824c-15e0b5b8a02b) <br>   |
 |Critério de Êxito | -Cadastro foi efetivado. |
 |  	|  	| 
-| **Caso de Teste** 	| **CT-02 – Fazer Login na conta de voluntário** 	|
-|	Requisito Associado 	| RF-002 - O sistema deve permitir que o usuário efetue login em sua conta de voluntário. |
+| **Caso de Teste** 	| **CT-02 – Fazer Login na conta de usuário** 	|
+|	Requisito Associado 	| RF-002 - O sistema deve permitir que o usuário efetue login em sua conta de voluntário. <br> RF-007 - O sistema deve permitir que o usuário efetue login na conta de sua ONG. |
 | Objetivo do Teste 	| Verificar se consegue fazer login. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
+| Foto 	|  ![tela 9 ft](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/ea604923-e9e6-4175-9ec4-91ad5a7e0408) <br> |
+| Foto 	| ![tela 10 ft](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/8b517f38-30a4-4b06-be9a-55f442812b9e) <br> |
+ | Foto 	| ![tela 11 ft](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/b9b75a16-ea1f-41fd-926b-f4927b58626b)
+ <br> |
 |Critério de Êxito | - A tentativa de login for aceita ou negada caso os dados de login estejam corretos ou incorretos, respectivamente. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-03 – Mudar dados cadastrais do voluntário** 	|
-|	Requisito Associado 	| RF-003 - O sistema deve permitir que o voluntário mude seus dados cadastrais. |
-| Objetivo do Teste 	| Verificar se consegue mudar os dados de cadastro. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Editado com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-04 – Recuperar senha do voluntário** 	|
-|	Requisito Associado 	| RF-004 - O sistema deve permitir que o voluntário recupere sua senha em caso de esquecimento. |
-| Objetivo do Teste 	| Verificar se consegue recuperar a senha. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Senha recuperada com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-05 – Apagar cadastro do voluntário** 	|
-|	Requisito Associado 	| RF-005 - O sistema deve permitir que o voluntário apague seu própio cadastro. |
-| Objetivo do Teste 	| Verificar se consegue apagar o cadastro. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Excluído com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-06 – Cadastrar ONG** 	|
-|	Requisito Associado 	| RF-006 - O sistema deve permitir que o usuário cadastre sua ONG. |
-| Objetivo do Teste 	| Verificar se consegue cadastrar ONG. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - ONG cadastrada com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-07 – Fazer Login na conta de ONG** 	|
-|	Requisito Associado 	| RF-007 - O sistema deve permitir que o usuário efetue login na conta de sua ONG. |
-| Objetivo do Teste 	| Verificar se consegue fazer login. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - A tentativa de login for aceita ou negada caso os dados de login estejam corretos ou incorretos, respectivamente. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-08 – Mudar dados cadastrais da ONG** 	|
-|	Requisito Associado 	| RF-008 - O sistema deve permitir que a ONG mude seus dados cadastrais. |
-| Objetivo do Teste 	| Verificar se consegue mudar os dados de cadastro. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Editado com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-09 – Recuperar senha da ONG** 	|
-|	Requisito Associado 	| RF-009 - O sistema deve permitir que a ONG recupere sua senha em caso de esquecimento. |
-| Objetivo do Teste 	| Verificar se consegue recuperar a senha. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Senha recuperada com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-10 – Apagar cadastro da ONG** 	|
-|	Requisito Associado 	| RF-010 - O sistema deve permitir que a ONG apague sua conta. |
-| Objetivo do Teste 	| Verificar se consegue apagar cadastro da ONG. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Excluído com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-11 – ONG criar vaga para voluntário** 	|
+| **Caso de Teste** 	| **CT-03 – ONG criar vaga para voluntário** 	|
 |	Requisito Associado 	| RF-011 - O sistema deve permitir que a ONG crie uma nova vaga para voluntariado. |
 | Objetivo do Teste 	| Verificar se a ONG consegue criar uma vaga para o voluntário. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
+| Foto 	| ![ft cadastro vaga](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/1fe5f5bc-659d-4843-bf1a-49714b0c5d56)
+ <br> |
 |Critério de Êxito | - Vaga criada com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-12 – ONG modificar dados das vagas** 	|
-|	Requisito Associado 	| RF-012 - O sistema deve permitir que a ONG modifique os dados de suas vagas. |
+| **Caso de Teste** 	| **CT-04 – Procurar e modificar dados das vagas** 	|
+|	Requisito Associado 	| RF-012 - O sistema deve permitir que a ONG modifique os dados de suas vagas. <br> RF-014 - O sistema deve permitir que o voluntário busque por vagas de ONGs. <br> RF-013 - O sistema deve permitir que a ONG exclua suas vagas. |
 | Objetivo do Teste 	| Verificar se a ONG consegue modificar os dados das vagas. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
+| Foto 	| ![vagas editar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/9db1a4ad-ce2d-49de-9351-c7e194e2020a)
+ <br> |
+ | Foto 	| ![codigo registro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t5-pmv-ads-2023-2-e3-proj-mov-t5-gp3-ong/assets/115049867/162cd888-bfcc-4895-b8e7-87d1177e8fa3) <br> |
 |Critério de Êxito | - Vaga editada com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-13 – ONG excluir vagas** 	|
-|	Requisito Associado 	| RF-013 - O sistema deve permitir que a ONG exclua suas vagas. |
-| Objetivo do Teste 	| Verificar se a ONG consegue excluir suas vagas. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Vaga excluída com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-14 – Voluntário buscar vagas** 	|
-|	Requisito Associado 	| RF-014 - O sistema deve permitir que o voluntário busque por vagas de ONGs. |
-| Objetivo do Teste 	| Verificar se o voluntário consegue buscar por vagas. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Aparecerá as vagas disponíveis. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-15 – Voluntário aplicar para uma ou mais vagas** 	|
-|	Requisito Associado 	| RF-015 - O sistema deve permitir que o voluntário aplique para uma ou mais vagas de voluntariado. |
-| Objetivo do Teste 	| Verificar se o voluntário consegue aplicar para uma ou mais vagas. |
-| foto/vídeo 	| - fazer os registros foto ou vídeo. <br> |
-|Critério de Êxito | - Candidatado com sucesso. |
-|  	|  	|
+
