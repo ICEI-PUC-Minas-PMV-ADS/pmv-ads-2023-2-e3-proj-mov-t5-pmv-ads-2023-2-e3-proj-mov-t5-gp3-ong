@@ -5,19 +5,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import Ongs from './Ongs';
 import Volunteers from './Voluntários';
+import Vagas from './Vagas';
 
 function Feed() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Ongs></Ongs>
-    </View>
-  );
-}
-
-function Profile() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Informações Cadastro!</Text>
     </View>
   );
 }
@@ -33,7 +26,7 @@ function Notifications() {
 function Jobs() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Informações Vagas!</Text>
+      <Vagas />
     </View>
   );
 }
@@ -49,7 +42,7 @@ export default function Main() {
       }}
     >
       <Tab.Screen
-        name="Tela ONGs" 
+        name=" ONGs" 
         component={Feed}
         options={{
           tabBarLabel: 'ONGs',
@@ -59,27 +52,19 @@ export default function Main() {
         }}
       />
       <Tab.Screen
-        name="Tela Voluntários"
+        name=" Voluntários"
         component={Volunteers}
         options={{
           tabBarLabel: 'Voluntários',
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="charity" color={color} size={size} />
           ),
+          
         }}
       />
+      
       <Tab.Screen
-        name="Tela Cadastro"
-        component={Profile}
-        options={{
-          tabBarLabel: 'Cadastro',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account-edit-outline" color={color} size={size} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="Tela Vagas"
+        name=" Vagas"
         component={Jobs}
         options={{
           tabBarLabel: 'Vagas',
