@@ -1,0 +1,23 @@
+{
+  "usuarios": [
+    {
+      "nome": "marcospaulo",
+      "email": "marcospaulo@gmail.com",
+      "senha": "@Marcospaulo",
+      "tipoUsuario": "Voluntario",
+      "id": 1
+    }
+  ],
+  "ongs": [
+    {
+      "id": "1",
+      "nome": "Missao el Pallet",
+      "site": "www.missaoelpallet.com.br",
+      "telefone": "123456789",
+      "email": "missao@missaoelpallet.com.br",
+      "descricao": "Somos uma ONG com objetivo de semear a boa semente e cremos que todos podem ter uma segunda chance. Nosso objetivo é transformar!",
+      "imagem": "require(../../assets/ongs_img/ong1.jpg)",
+      "endereco": "Sâo Paulo, SP"
+    }
+  ]
+}
