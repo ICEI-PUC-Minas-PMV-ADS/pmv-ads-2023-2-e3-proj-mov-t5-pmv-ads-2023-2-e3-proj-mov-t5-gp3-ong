@@ -4,6 +4,7 @@ import Login from './components/Pages/Login';
 import Main from './components/Pages/Main';
 import CadastroUsuario from './components/Pages/CadastroUsuario';
 import Vagas from './components/Pages/Vagas';
+import OngDetails from './components/Pages/OngDetails'; 
 
 const Stack = createStackNavigator();
 
@@ -15,6 +16,7 @@ function MyStack() {
       <Stack.Screen name="CadastroUsuario" component={CadastroUsuario}/>
       <Stack.Screen name="Main" component={Main} options={{ headerShown: false }}/>
       <Stack.Screen name="Vagas" component={Vagas} options={{ headerShown: false }}/>
+      <Stack.Screen name="OngDetails" component={OngDetails} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }

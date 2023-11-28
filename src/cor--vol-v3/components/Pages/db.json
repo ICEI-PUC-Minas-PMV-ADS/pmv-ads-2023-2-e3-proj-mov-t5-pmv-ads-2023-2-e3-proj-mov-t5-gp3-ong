@@ -13,6 +13,13 @@
       "senha": "@outono",
       "tipoUsuario": "Voluntario",
       "id": 2
+    },
+    {
+      "nome": "Janaina Leal",
+      "email": "janainapinheiroleal@gmail.com",
+      "senha": "123456",
+      "tipoUsuario": "Voluntario",
+      "id": 3
     }
   ],
   "jobs": [
@@ -132,4 +139,3 @@
     }
   ]
 }
-
